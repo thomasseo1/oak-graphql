@@ -20,6 +20,7 @@ export interface ApplyGraphQLOptions<T> {
   context?: (ctx: any) => any;
   usePlayground?: boolean;
   settings?: ISettings;
+  extensions: any;
 }
 
 export interface ResolversProps {
